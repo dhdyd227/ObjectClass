@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>전역변수와 지역 변수 이해하기1</title>
+</head>
+
+<body>
+	<script>
+		function getGrade(){
+			var kor=95;
+		}
+		var kor =100;
+		getGrade();
+		document.write("국어 점수: " +kor+"<br>");
+	</script>
+
+</body>
+</html>
